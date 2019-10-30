@@ -140,6 +140,8 @@ publications:
 
       - title: "GPCRdb in 2018: adding GPCR structure models and ligands"
         authors: "Gáspár Pándy-Szekeres, **Christian Munk**, Tsonko M Tsonkov, Stefan Mordalski, Kasper Harpsøe, Alexander S Hauser, Andrzej J Bojarski, David E Gloriam."
+        journal: Nucleic Acids Research, Volume 46, Issue D1, **2018**, Pages D440–D446,
+        url: https://doi.org/10.1093/nar/gkx1109
 
       - title: Integrating structural and mutagenesis data to elucidate GPCR ligand binding.  
         authors: "**C Munk**, K Harpsøe, AS Hauser, V Isberg, DE Gloriam."

@@ -18,11 +18,9 @@
 
   {% for publication in publications.papers %}
   <div class="item">
-<div markdown=1>
-{{ publication.authors }}
-[{{ publication.title }}]({{ publication.url }}).  
-{{ publication.journal }}
-</div>
+    <a href="{{publication.url}}">{{ publication.title | markdownify | remove: '<p>' | remove: '</p>'}}</a><br>
+    {{ publication.authors | markdownify | remove: '<p>' | remove: '</p>'}}  
+    {{ publication.journal | markdownify | remove: '<p>' | remove: '</p>'}}
   </div><!--//item-->
   {% endfor %}
 
