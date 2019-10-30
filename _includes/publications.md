@@ -18,9 +18,11 @@
 
   {% for publication in publications.papers %}
   <div class="item">
-    <div class="publication-title">{{ publication.title }}</div>
-    <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
+<div markdown=1>
+{{ publication.authors }}
+[{{ publication.title }}]({{ publication.url }}).  
+{{ publication.journal }}
+</div>
   </div><!--//item-->
   {% endfor %}
 

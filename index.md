@@ -13,6 +13,6 @@ layout: default
 
 {% include projects.html %}
 
-{% include publications.html %}
+{% include publications.md %}
 
 {% include skills.html %}
